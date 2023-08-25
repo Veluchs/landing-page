@@ -156,3 +156,38 @@ a {
     font-size: 20px;
     align-self: flex-end;
 }
+
+/* signup action part */
+
+.action{
+    display: flex;
+    margin: 90px 200px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 40px 70px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    gap:8px;
+  }
+
+.action h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.action p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+.action .signup-button {
+    border-color: #F9FAF8;
+    border-width: 2px;
+    border-style: solid;
+}
