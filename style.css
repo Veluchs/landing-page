@@ -1,6 +1,6 @@
 body {
     display: flex;
-    padding: 16px 50px;
+    padding: 16px 200px;
     flex-direction: column;
     justify-content: space-between;
 }
