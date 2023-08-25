@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
-    font: "roboto";
+    font-family: "Roboto";
 }
 
 .top {
@@ -44,6 +44,7 @@ a {
     align-items: center;
     justify-content: center;
     padding: 90px 0;
+    gap: 32px;
 }
 
 .text h2{
@@ -92,6 +93,7 @@ a {
 /* info section */
 
 .info {
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,4 +129,30 @@ a {
     border-radius: 10px;
     border-width: 4px;
     border-style: solid;
+}
+
+/* quote section */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px 400px 50px 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quote p {
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    font-weight: 20;
+    font-style: italic;
+    color: #49515c;    
+}
+
+.citation {
+    font-weight: 600;
+    font-size: 20px;
+    align-self: flex-end;
 }
